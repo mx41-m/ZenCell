@@ -50,7 +50,7 @@ def remap(org_mask, stitch_mask):
 
 def loadmask(zarrfile, mask, zst, zed, yst, yed, xst, xed):
     D,H,W = mask.shape
-    for d in range(0, D, 500):
+    for d in range(0, D, 320):
         for y in range(0, H, 512):
             for x in range(0, W, 512):
                 zarrfile[zst+d:min(zst+d+500, zed), 
