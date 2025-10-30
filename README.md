@@ -8,11 +8,7 @@ ZenCell consists of three main components:
 - Fine-tuning to adapt pretrained models with new labels for accurate 3D cell segmentation on new datasets
 
 ## Environment Installation 
-### Model
 Pretraining, fine-tuning, and the annotation tool share the same environment. We provide a Conda-based installation guide for setting it up in [ANNOTOOL.md](doc/ANNOTOOL.md).
-
-### Annotation Tool
-We provide our annotation tool as a Napari plugin to improve usability.
 
 ## Self-supervised pretraining
 This step can be skipped if you use the provided pretrained weights. However, if your data distribution differs significantly from our pretraining data, we recommend running pretraining on your own unlabeled raw images for optimal performance. The pre-training instruction is in [PRETRAIN.md](doc/PRETRAIN.md)
