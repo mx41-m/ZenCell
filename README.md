@@ -9,7 +9,8 @@ ZenCell consists of three main components:
 
 ## Environment Installation 
 ### Model
-Both pretraining and fine-tuning use the same environment, and we provide a Conda-based installation to set it up.
+Pretraining, fine-tuning, and the annotation tool share the same environment. We provide a Conda-based installation guide for setting it up in [ANNOTOOL.md](doc/ANNOTOOL.md).
+
 ### Annotation Tool
 We provide our annotation tool as a Napari plugin to improve usability.
 
