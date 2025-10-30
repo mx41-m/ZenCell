@@ -1,5 +1,5 @@
 ## Finetune
-You can download our pre-trained checkpoints from [Here](https://example.com), or pre-train the model on your own data by following the instructions in [PRETRAIN.md](doc/PRETRAIN.md).
+You can download our pre-trained checkpoints from [Here](https://example.com), or pre-train the model on your own data by following the instructions in [PRETRAIN.md](PRETRAIN.md).
 
 To fine-tune the model with multi-node distributed training, we provide an example script in `exps/finetune_3d.sh` or you could run the following on 1 nodes with 8 GPUs:
 
