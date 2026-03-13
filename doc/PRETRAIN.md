@@ -1,5 +1,5 @@
 ## Pretrain
-We recommend pre-training the model on your own dataset for optimal segmentation performance. However, we also provide our pre-trained checkpoints [Here](https://example.com) and details of our pre-training dataset are described in our [Paper](https://example.com). 
+We recommend pre-training the model on your own dataset for optimal segmentation performance. However, we also provide our pre-trained checkpoints [Here](https://www.dropbox.com/scl/fo/ns5csoe040c3s350acix2/ANFRup4ZWr_CZDN2sN4KwH0?rlkey=01kgoftb9ychvs8uingr43czu&st=api7abyz&dl=0) and details of our pre-training dataset are described in our [Paper](https://www.cell.com/neuron/fulltext/S0896-6273(25)00983-3). 
 
 To pretrain the model with multi-node distributed training, we provide an example script in `exps/pretrain.sh` or you could run the following on 1 nodes with 8 GPUs:
 
