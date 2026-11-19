@@ -79,6 +79,8 @@ Under zencell_plugin_light folder, install this plugin in edit mode
 pip install -e .
 
 ```
+### Load a Custom Annotation Tool Checkpoint
+You can either load your own annotation tool checkpoint or download our pre-trained checkpoint [Here](https://www.dropbox.com/scl/fi/hh6t70n7fhlku7j9pr7r7/sam_model_dice_best.pth?rlkey=g4psf67zzxmutxtahvaxz0wlw&st=zlien8sp&dl=0). 
 
 ### Visualization(maybe need to edit)
 
